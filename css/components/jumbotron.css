@@ -1,0 +1,35 @@
+.jumbotron-my {
+  position: relative;
+  background-color: initial;
+  margin-bottom: 0;
+  text-align: center;
+  padding: 12rem 2rem 10rem;
+}
+
+.jumbotron-background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -2;
+  margin: 0;
+}
+
+.jumbotron-background img {
+  height: 100%;
+}
+
+.jumbotron-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(198, 230, 240, 0.2);
+  z-index: -1;
+}
+
+.jumbotron-foreground {
+  color: #ffffff;
+}

@@ -1,0 +1,14 @@
+.btn-my {
+  background: #FF0032;
+  color: #fff;
+  text-align: center;
+  padding: 17px 87px;
+  border-radius: 35px;
+  border-color: #FF0032;
+}
+
+.btn-my:hover, .btn-my:focus, .btn-my:active {
+  border-color: #FF0032;
+  color: #FF0032;
+  background: rgb(255,255,255)
+}
